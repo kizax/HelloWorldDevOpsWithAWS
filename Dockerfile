@@ -1,4 +1,4 @@
-FROM node:carbon
+FROM node:13
 
 RUN mkdir -p /usr/local/helloworld/
 COPY helloworld.js package.json /usr/local/helloworld/
